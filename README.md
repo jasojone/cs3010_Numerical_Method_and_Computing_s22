@@ -22,104 +22,104 @@ and Unix environment. File management, communications and process control. Regul
 
 Course Detail
 * Week# 1
-Linear Algebra Concepts and Notation
-Representation of Integers
-Representation of Fractions
-From Binary to Decimal/Octal/Hexadecimal and vice versa
-Binary Digit, Ternary Digit, Balanced Ternary Digit, Redundant Ternary Digit Set
+Linear Algebra Concepts and Notation  
+Representation of Integers  
+Representation of Fractions  
+From Binary to Decimal/Octal/Hexadecimal and vice versa  
+Binary Digit, Ternary Digit, Balanced Ternary Digit, Redundant Ternary Digit Set  
 
 * Week#2
-Floating-Point Arithmetic
-Loss of Significance and Error Propagation;
-Computational Methods for Error Estimation
-Some Comments on Convergence of Sequences
-Some Mathematical Preliminaries
-Real and Imaginary (complex) numbers
+Floating-Point Arithmetic  
+Loss of Significance and Error Propagation  
+Computational Methods for Error Estimation  
+Some Comments on Convergence of Sequences  
+Some Mathematical Preliminaries  
+Real and Imaginary (complex) numbers  
 
 * Week# 3
-Fixed-Point Iteration
-Convergence Acceleration for Fixed-Point Iteration
-Newton
-Secant Methods
-Bisection
+Fixed-Point Iteration  
+Convergence Acceleration for Fixed-Point Iteration  
+Newton  
+Secant Methods  
+Bisection  
 
 * Week# 4
 
-Properties of Matrices
-
-Conventional Computer arithmetic versus Matrices Arithmetic
-
-Addition (compressors), Subtraction by addition, Multiplication , Division by Multiplication, Square root and function evaluation  
-
-Addition, Subtraction, Multiplication (Direct, Inner, Outer, Tensor) and application
+Properties of Matrices  
+Conventional Computer arithmetic versus Matrices Arithmetic  
+Addition (compressors)  
+Subtraction by addition  
+Multiplication  
+Division by Multiplication  
+Square root and function evaluation  
+Addition, Subtraction, Multiplication (Direct, Inner, Outer, Tensor) and application  
 
 * Week# 5
-Approximation Computing
-Approximate Arithmetic
-Rounding
-Truncation
-First Exam Feb. 24
+Approximation Computing  
+Approximate Arithmetic  
+Rounding  
+Truncation  
+First Exam Feb. 24  
 
 * Week# 6
-Conventional Differentiation
-The meaning of Differentiation
-Numerical Differentiation
-Conventional Integration
-The meaning of Integration
-Numerical Integration: Some Basic Rules
+Conventional Differentiation  
+The meaning of Differentiation  
+Numerical Differentiation  
+Conventional Integration  
+The meaning of Integration  
+Numerical Integration: Some Basic Rules  
 
 * Week# 7
-Numerical Integration: Gaussian Rules
-Numerical Integration: Composite Rules
-Adaptive Quadrature
-Extrapolation to the Limit
-Romberg Integration
-Trapezoidal Rule of Integration
-Simpson
+Numerical Integration: Gaussian Rules  
+Numerical Integration: Composite Rules  
+Adaptive Quadrature  
+Extrapolation to the Limit  
+Romberg Integration  
+Trapezoidal Rule of Integration  
+Simpson  
 
 * Week# 8
-Ordinary Differential Equations
-Numerical Integration by Taylor Series
-Euler’s Method
-Runge-Kutta Methods
-Step-Size Control with Runge-Kutta Methods
-Systems of Differential Equations
+Ordinary Differential Equations  
+Numerical Integration by Taylor Series  
+Euler’s Method  
+Runge-Kutta Methods  
+Step-Size Control with Runge-Kutta Methods  
+Systems of Differential Equations  
 
 * Week # 9
-
-Finite Difference Methods
-Shooting Methods
-Collocation Methods
+Finite Difference Methods  
+Shooting Methods  
+Collocation Methods  
 
 * Week # 10
-How to write a Research Paper
-Paper presentation (optional)
+How to write a Research Paper  
+Paper presentation (optional)  
 
 * Week # 11
-Solution of Linear Systems by Elimination
-Pivoting Strategy
-The Triangular Factorization
-Residual of an Approximate Solution; Norms
-Backward-Error Analysis and Iterative Improvement
-Determinants
-Second Exam April7
+Solution of Linear Systems by Elimination  
+Pivoting Strategy  
+The Triangular Factorization  
+Residual of an Approximate Solution  
+Norms  
+Backward-Error Analysis and Iterative Improvement  
+Determinants  
 
 * Week # 12
-Eigenvalue Problem
-Eigen vector
-Application in Quantum Computing
+Eigenvalue Problem  
+Eigen vector  
+Application in Quantum Computing  
 
 * Week # 13
-Residue Number System
+Residue Number System  
 
 * Week # 14
-Interpolation
+Interpolation  
 
 * Week #15
-Scientific Metrics
-Some Ph.D. and Ms. Project Examples.
-Paper presentation
-Overall conclusion
+Scientific Metrics  
+Some Ph.D. and Ms. Project Examples  
+Paper presentation  
+Overall conclusion  
 
 
 # References  
