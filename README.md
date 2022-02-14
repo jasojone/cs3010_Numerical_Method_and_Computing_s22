@@ -7,7 +7,7 @@
 - [Course Instructor](#Course-Instructor)
 - [Course Description](#Course-Description)
 - [Detailed Description](#Detailed-Description)
-- [References](#References)  
+- [Book](#Book)  
 <!-- - [Code of conduct](#code-of-conduct)
 - [Team](#team) -->
 # Course Instructor  
@@ -121,6 +121,6 @@ Paper presentation
 Overall conclusion  
 
 
-# References  
+# Book  
  * [Linear Algebra in Twenty Five Lectures - UC Davis Mathematics - PDF](https://www.math.ucdavis.edu/~linear/linear.pdf) By Tom Denton and Andrew Waldron
    *  A complete (400 page) online Linear Algebra textbook. Well, the actual text is only 200 pages; the other 200 pages are scripts for 79 videos that take the place of most worked exercises that are common in traditional textbooks. The text contains a few Exercises, but also makes use of online homework (and checks that students are doing the reading) via WebWork.
