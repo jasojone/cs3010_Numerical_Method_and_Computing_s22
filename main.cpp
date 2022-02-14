@@ -6,74 +6,76 @@
 #include <iomanip>
 #include <cmath>
 
-
-//#include <studio.h>
-
 using namespace std;
 
-float function1Iteration(int x1)
+float function1(float xn)
 {
-    return (x1 = sqrtf(3 * x1 - 1));
+    return (xn = sqrtf(3 * xn - 1));
 }
 
-float solveViaIteration()
+float function2(float xn)
 {
-    float currentX = 1;
-    for (int i = 0; ; i++)
+    return (xn = (-1 / (xn - 3)));
+}
+
+float function3(float xn)
+{
+    return (xn = ((3 * xn - 1) / xn));
+}
+
+float solveViaIteration(float x)
+{
+    float currentX = x;
+    cout << "Solving for (xn = sqrtf(3 * xn - 1)) for x_1: " << x << endl;
+    for (int i = 0;; i++)
     {
-        cout << "Iteration: " << i << "Value: "
+        cout << "Iteration: " << i << " Value: " << currentX << endl;
+        float nextX = function1(currentX);
+        if (abs(currentX - nextX) < 1E-5)
+        {
+            cout << "Fixed Point Iteration complete at iteration: " << i << endl;
+            cout << " with a value of " << setprecision(5) << currentX << endl;
+            break;
+        }
+        currentX = nextX;
+    }
+
+    cout << "Solving for (xn = (-1 / (xn - 3))) for x_1: " << x << endl;
+    currentX = x;
+    for (int i = 0;; i++)
+    {
+        cout << "Iteration: " << i << " Value: " << currentX << endl;
+        float nextX = function2(currentX);
+        if (abs(currentX - nextX) < 1E-5)
+        {
+            cout << "Fixed Point Iteration complete at iteration: " << i << endl;
+            cout << " with a value of " << setprecision(5) << currentX << endl;
+            break;
+        }
+        currentX = nextX;
+    }
+    cout << "Solving for (xn = ((3 * xn - 1) / xn)) for x_1: " << x << endl;
+    currentX = x;
+    for (int i = 0;; i++)
+    {
+        cout << "Iteration: " << i << " Value: " << currentX << endl;
+        float nextX = function3(currentX);
+        if (abs(currentX - nextX) < 1E-5)
+        {
+            cout << "Fixed Point Iteration complete at iteration: " << i << endl;
+            cout << " with a value of " << setprecision(5) << currentX << endl;
+            return currentX;
+        }
+        currentX = nextX;
     }
 }
 
 int main()
 {
-    // equations solves for f(x) = 1 
-    float x1 = 1;
-    float xn = 0;
-    float ans1 = 0;
-    
- 
-    //cout << "Solving equations for f(x) = 1\n";
-    //cout << "x = sqrtf(3 * x - 1)\n";
-
-    ans1 = (x1 = sqrtf(3 * x1 - 1));
-    printf("Answer %.4f \n", ans1);
-
-
-
-
-    //x1 = 1;
-    //ans1 = (x1 = (-1 / (x1 - 3)));
-    //cout << "x = (-1 / (x - 3))\n";
-    //printf("Answer %.4f \n", ans1);
-    //x1 = 1;
-    //ans1 = (x1 = ((3 * x1 - 1) / x1));
-    //cout << "x = ((3 * x - 1) / x)\n";
-    //printf("Answer %.4f \n", ans1);
-    //cout << endl;
-
-    //// equations solves for f(x) = 4
-    //x1 = 4;
-    //cout << "Solving equations for f(x) = 4\n";
-    //cout << "x = sqrtf(3 * x - 1)\n";
-    //ans1 = (x1 = sqrtf(3 * x1 - 1));
-    //printf("Answer %.4f \n", ans1);
-    //x1 = 4;
-    //ans1 = (x1 = (-1 / (x1 - 3)));
-    //cout << "x = (-1 / (x - 3))\n";
-    //printf("Answer %.4f \n", ans1);
-    //x1 = 4;
-    //ans1 = (x1 = ((3 * x1 - 1) / x1));
-    //cout << "x = ((3 * x - 1) / x)\n";
-    //printf("Answer %.4f \n", ans1);
-    //cout << endl;
-
-    //Old stuff
-    //ans = sqrt(((x2 * x1) - 1))/1;
-    //ans = (sqrt(x2) - sqrt(1));
-    //printf("%.4f \n", ans1);
-    //printf("%.4f = sqrt(%4f * %4f - %4f \n", x1, x1 = sqrt(3 * x1 - 1));
-    //cout << setprecision(5) << x1 << '\n';
+    float x = 0;
+    cout << "Enter x_1: ";
+    cin >> x;
+    solveViaIteration(x);
 
     return 0;
 }
