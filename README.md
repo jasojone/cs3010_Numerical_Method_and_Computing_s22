@@ -1,4 +1,5 @@
-# CS 3010 Numerical Method and Computing Spring 2022 California State Polytechnic University, Pomona  
+# CS 3010 Numerical Method and Computing Spring 2022   
+# California State Polytechnic University, Pomona  
 
 
 # Contents
@@ -20,14 +21,14 @@ and Unix environment. File management, communications and process control. Regul
 # Detailed Description  
 
 Course Detail
-## Week# 1
+* Week# 1
 Linear Algebra Concepts and Notation
 Representation of Integers
 Representation of Fractions
 From Binary to Decimal/Octal/Hexadecimal and vice versa
 Binary Digit, Ternary Digit, Balanced Ternary Digit, Redundant Ternary Digit Set
 
-## Week#2
+* Week#2
 Floating-Point Arithmetic
 Loss of Significance and Error Propagation;
 Computational Methods for Error Estimation
@@ -35,14 +36,14 @@ Some Comments on Convergence of Sequences
 Some Mathematical Preliminaries
 Real and Imaginary (complex) numbers
 
-## Week# 3
+* Week# 3
 Fixed-Point Iteration
 Convergence Acceleration for Fixed-Point Iteration
 Newton
 Secant Methods
 Bisection
 
-## Week# 4
+* Week# 4
 
 Properties of Matrices
 
@@ -52,14 +53,14 @@ Addition (compressors), Subtraction by addition, Multiplication , Division by Mu
 
 Addition, Subtraction, Multiplication (Direct, Inner, Outer, Tensor) and application
 
-## Week# 5
+* Week# 5
 Approximation Computing
 Approximate Arithmetic
 Rounding
 Truncation
 First Exam Feb. 24
 
-## Week# 6
+* Week# 6
 Conventional Differentiation
 The meaning of Differentiation
 Numerical Differentiation
@@ -67,7 +68,7 @@ Conventional Integration
 The meaning of Integration
 Numerical Integration: Some Basic Rules
 
-## Week# 7
+* Week# 7
 Numerical Integration: Gaussian Rules
 Numerical Integration: Composite Rules
 Adaptive Quadrature
@@ -76,7 +77,7 @@ Romberg Integration
 Trapezoidal Rule of Integration
 Simpson
 
-## Week# 8
+* Week# 8
 Ordinary Differential Equations
 Numerical Integration by Taylor Series
 Euler’s Method
@@ -84,17 +85,17 @@ Runge-Kutta Methods
 Step-Size Control with Runge-Kutta Methods
 Systems of Differential Equations
 
-## Week # 9
+* Week # 9
 
 Finite Difference Methods
 Shooting Methods
 Collocation Methods
 
-## Week # 10
+* Week # 10
 How to write a Research Paper
 Paper presentation (optional)
 
-## Week # 11
+* Week # 11
 Solution of Linear Systems by Elimination
 Pivoting Strategy
 The Triangular Factorization
@@ -103,18 +104,18 @@ Backward-Error Analysis and Iterative Improvement
 Determinants
 Second Exam April7
 
-## Week # 12
+* Week # 12
 Eigenvalue Problem
 Eigen vector
 Application in Quantum Computing
 
-## Week # 13
+* Week # 13
 Residue Number System
 
-## Week # 14
+* Week # 14
 Interpolation
 
-## Week #15
+* Week #15
 Scientific Metrics
 Some Ph.D. and Ms. Project Examples.
 Paper presentation
@@ -122,5 +123,5 @@ Overall conclusion
 
 
 # References  
- * [Linear Algebra in Twenty Five Lectures - UC Davis Mathematics - PDF](https://www.math.ucdavis.edu/~linear/linear.pdf)
+ * [Linear Algebra in Twenty Five Lectures - UC Davis Mathematics - PDF](https://www.math.ucdavis.edu/~linear/linear.pdf) By Tom Denton and Andrew Waldron
    *  A complete (400 page) online Linear Algebra textbook. Well, the actual text is only 200 pages; the other 200 pages are scripts for 79 videos that take the place of most worked exercises that are common in traditional textbooks. The text contains a few Exercises, but also makes use of online homework (and checks that students are doing the reading) via WebWork.
