@@ -1,5 +1,5 @@
 # CS 3010 Numerical Method and Computing Spring 2022   
-# California State Polytechnic University, Pomona  
+* California State Polytechnic University, Pomona  
 
 
 # Contents
